@@ -17,6 +17,8 @@ ssh-keygen -t rsa -C "liang---y@outlook.com"
 
     git commit -a -m "first commit"
 
+    git pull origin master
+
     git push origin master
 
 # ReSpeaker 4 Mic Array
