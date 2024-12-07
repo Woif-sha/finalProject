@@ -1,12 +1,37 @@
+# Git
+1.git clone速度慢
+
+git clone命令中将添加gitclone.com, eg:
+
+> _git clone https://gitclone.com/github.com/Woif-sha/finalProject.git_
+
+2.配置ssh
+
+https://blog.csdn.net/weixin_42310154/article/details/118340458
+
+ssh-keygen -t rsa -C "liang---y@outlook.com"
+
+3.基本指令
+
+    git add -A
+
+    git commit -a -m "first commit"
+
+    git push origin master
+
 # ReSpeaker 4 Mic Array
 
-1.安装驱动https://github.com/respeaker/seeed-voicecard
+1.安装驱动
+
+https://github.com/respeaker/seeed-voicecard
 
 2.声源定位、语音交互（google assistant）
 
 https://github.com/respeaker/mic_array/tree/master?tab=readme-ov-file
 
-3.https://blog.csdn.net/Unibug/article/details/126067050
+3.csdn 例程
+
+https://blog.csdn.net/Unibug/article/details/126067050
 
 # Snowboy
 
