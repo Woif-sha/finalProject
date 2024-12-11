@@ -21,6 +21,10 @@ ssh-keygen -t rsa -C "liang---y@outlook.com"
 
     git push origin master
 
+# 桶形畸变处理
+
+CSDN：https://blog.csdn.net/u010607947/article/details/80510939
+
 # ReSpeaker 4 Mic Array
 
 1.安装驱动
