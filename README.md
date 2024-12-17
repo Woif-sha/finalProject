@@ -1,7 +1,7 @@
 # Git
 1.git clone速度慢
 
-git clone命令中将添加gitclone.com, eg:
+git clone命令中将添加 gitclone.com, eg:
 
 > _git clone https://gitclone.com/github.com/Woif-sha/finalProject.git_
 
@@ -13,9 +13,18 @@ ssh-keygen -t rsa -C "liang---y@outlook.com"
 
 3.基本指令
 
+    git config --global user.name "Woif_sha"
+    git config --global user.email "liang---y@outlook.com"
+
+    设置忽略的文件格式：touch .gitignore   --/.idea/  /__pycache__/
+    清除已上传无用文件：git rm -r --force __pycache__
+                      git rm -r --force .idea
+
+    链接远程仓库：git remote add origin ......
+
     git add -A
 
-    git commit -a -m "first commit"
+    git commit -m "first commit"
 
     git pull origin master
 
@@ -24,6 +33,9 @@ ssh-keygen -t rsa -C "liang---y@outlook.com"
 # 桶形畸变处理
 
 CSDN：https://blog.csdn.net/u010607947/article/details/80510939
+
+平面->球坐标投影 https://blog.csdn.net/qq_43474959/article/details/108394740
+
 
 # ReSpeaker 4 Mic Array
 
